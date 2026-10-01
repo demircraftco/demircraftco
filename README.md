@@ -1,6 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="DemirCraftCo — where the mind meets the craft" width="100%"></p>
-
-<img src="assets/ozzid.png" alt="Oğuz as a 16-bit pixel character" width="150" align="right">
+<p align="center"><img src="assets/banner.svg" alt="DemirCraftCo — where the mind meets the craft, with Oğuz as a 16-bit pixel character" width="100%"></p>
 
 # Hi, I'm Oğuz 👋
 

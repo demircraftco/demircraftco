@@ -77,11 +77,14 @@ const ANVIL = [
 ];
 const ANVIL_KEYS = { s: 'steel', b: 'brass', i: 'iron', w: 'steel' };
 
+// Owner's 16-bit character from IronBuild, embedded so the banner is one self-contained file.
+const AVATAR = fs.readFileSync(path.join(__dirname, '..', 'assets', 'ozzid.png')).toString('base64');
+
 function banner() {
   const W = 840, H = 200, px = 6;
   const title = 'DEMIRCRAFTCO';
   const tagline = 'WHERE THE MIND MEETS THE CRAFT';
-  const tx = 200, ty = 52;
+  const tx = 176, ty = 52;
   const sparks = [
     [118, 92, 0], [132, 80, 0.4], [104, 84, 0.8], [140, 98, 1.2], [96, 100, 1.6],
   ].map(([x, y, d]) => `<rect class="spark" style="animation-delay:${d}s" x="${x}" y="${y}" width="4" height="4" fill="${PALETTE.flame}"/>`).join('');
@@ -102,6 +105,7 @@ ${sparks}
 ${textRects(title, tx, ty, px, PALETTE.brass)}
 ${textRects(title, tx - 3, ty - 3, px, PALETTE.bone)}
 ${textRects(tagline, tx, ty + 70, 3, PALETTE.teal)}
+<image x="${W - 108}" y="20" width="94" height="158" style="image-rendering:pixelated" href="data:image/png;base64,${AVATAR}"/>
 ${swatches}
 </svg>
 `;
