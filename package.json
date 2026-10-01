@@ -1,0 +1,8 @@
+{
+  "name": "github-profile",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build-art.js"
+  }
+}
