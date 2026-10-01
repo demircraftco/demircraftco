@@ -13,8 +13,8 @@ simple, ship it.
 
 ## Things I make
 
-- <img src="assets/quarterdeck.svg" width="16" height="16" alt=""> **Quarterdeck** — a macOS app for running Claude Code sessions side by side, one color
-  per session. *(coming soon)*
+- <img src="assets/quarterdeck.svg" width="16" height="16" alt=""> **[Quarterdeck](https://github.com/demircraftco/homebrew-quarterdeck)** — a macOS app for running Claude Code sessions side by side, one color
+  per session. `brew install --cask demircraftco/quarterdeck/quarterdeck`
 - <img src="assets/growmanac.svg" width="16" height="16" alt=""> **[Growmanac](https://growmanac.com)** — tools and guides for growing your own food.
 - <img src="assets/coingarden.svg" width="16" height="16" alt=""> **[CoinGarden](https://thecoingarden.com)** — free investing and FIRE calculators.
 - <img src="assets/burr.svg" width="16" height="16" alt=""> **[Burr](https://app.burrapp.com)** — a five-move morning mobility routine; start
@@ -34,4 +34,4 @@ I document what I build and learn under **DemirCraftCo** — where the mind meet
 
 ## Now
 
-Getting Quarterdeck 0.1 out the door.
+Quarterdeck 0.1 is out. Next: shipping Burr and IronBuild to the iPhone.
