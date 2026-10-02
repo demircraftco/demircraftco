@@ -113,8 +113,6 @@ ${swatches}
 }
 
 const ICONS = {
-  quarterdeck: { keys: { b: 'brass', t: 'teal' }, rows: [
-    '...b....', '.b.b.b..', '..bbb...', 'bbbtbbb.', '..bbb...', '.b.b.b..', '...b....', '........'] },
   growmanac: { keys: { g: 'teal', s: 'steel' }, rows: [
     '.....gg.', '...gggg.', '..ggggg.', '.gggg.g.', '.ggg.g..', '..s.....', '.s......', '........'] },
   coingarden: { keys: { b: 'brass', f: 'flame' }, rows: [

@@ -13,7 +13,7 @@ simple, ship it.
 
 ## Things I make
 
-- <img src="assets/quarterdeck.svg" width="16" height="16" alt=""> **[Quarterdeck](https://github.com/demircraftco/homebrew-quarterdeck)** — a macOS app for running Claude Code sessions side by side, one color
+- <img src="assets/quarterdeck.png" width="16" height="16" alt=""> **[Quarterdeck](https://github.com/demircraftco/homebrew-quarterdeck)** — a macOS app for running Claude Code sessions side by side, one color
   per session. `brew install --cask demircraftco/quarterdeck/quarterdeck`
 - <img src="assets/growmanac.svg" width="16" height="16" alt=""> **[Growmanac](https://growmanac.com)** — tools and guides for growing your own food.
 - <img src="assets/coingarden.svg" width="16" height="16" alt=""> **[CoinGarden](https://thecoingarden.com)** — free investing and FIRE calculators.
